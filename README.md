@@ -15,6 +15,10 @@
 
 ![fgen-for-vscode演示图](https://s2.ax1x.com/2020/01/19/19WPr6.gif)
 
+## 交流群
+
+[![交流群](https://s2.ax1x.com/2020/01/31/13TD74.md.png)]
+
 ## 相关链接
 
 - [form-generator-plugin](https://marketplace.visualstudio.com/items?itemName=jakHuang.form-generator-plugin)
