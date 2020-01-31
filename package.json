@@ -52,14 +52,14 @@
 		"watch": "tsc -watch -p ./"
 	},
 	"dependencies": {
-		"vue-ele-form-generator": "^1.6.0"
+		"vue-ele-form-generator": "^1.7.0"
 	},
 	"devDependencies": {
 		"@types/glob": "^7.1.1",
 		"@types/node": "^12.11.7",
 		"@types/vscode": "^1.41.0",
 		"glob": "^7.1.5",
-		"typescript": "^3.6.4",
-		"tslint": "^5.20.0"
+		"tslint": "^5.20.0",
+		"typescript": "^3.6.4"
 	}
 }
