@@ -2,7 +2,7 @@
 	"name": "fgen-for-vscode",
 	"displayName": "fgen-for-vscode",
 	"description": "vue-ele-form-generator的vscode扩展",
-	"version": "0.1.0",
+	"version": "0.1.2",
 	"license": "MIT",
 	"engines": {
 		"vscode": "^1.41.0"
@@ -52,7 +52,7 @@
 		"watch": "tsc -watch -p ./"
 	},
 	"dependencies": {
-		"vue-ele-form-generator": "^1.7.0"
+		"vue-ele-form-generator": "^1.8.0"
 	},
 	"devDependencies": {
 		"@types/glob": "^7.1.1",
