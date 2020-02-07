@@ -869,10 +869,10 @@ url-parse-lax@^3.0.0:
   dependencies:
     prepend-http "^2.0.0"
 
-vue-ele-form-generator@^1.8.0:
-  version "1.8.0"
-  resolved "https://registry.npm.taobao.org/vue-ele-form-generator/download/vue-ele-form-generator-1.8.0.tgz#11f5d51ddd410a4c1feca588ec23c922c00b9d93"
-  integrity sha1-EfXVHd1BCkwf7KWI7CPJIsALnZM=
+vue-ele-form-generator@^1.9.0:
+  version "1.9.0"
+  resolved "https://registry.npm.taobao.org/vue-ele-form-generator/download/vue-ele-form-generator-1.9.0.tgz#780011b7fcd56a6e8565921376be5c2ace80186f"
+  integrity sha1-eAARt/zVam6FZZITdr5cKs6AGG8=
   dependencies:
     chalk "^3.0.0"
     commander "^4.1.0"
