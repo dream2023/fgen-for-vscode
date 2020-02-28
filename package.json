@@ -1,65 +1,65 @@
 {
-	"name": "fgen-for-vscode",
-	"displayName": "fgen-for-vscode",
-	"description": "vue-ele-form-generator的vscode扩展",
-	"version": "0.1.4",
-	"license": "MIT",
-	"engines": {
-		"vscode": "^1.41.0"
-	},
-	"categories": [
-		"Other"
-	],
-	"author": {
-		"name": "dream2023",
-		"email": "1098626505@qq.com",
-		"url": "https://dream2023.github.io"
-	},
-	"publisher": "dream2023",
-	"homepage": "https://github.com/dream2023/fgen-for-vscode",
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/dream2023/fgen-for-vscode"
-	},
-	"activationEvents": [
-		"onCommand:extension.fgen"
-	],
-	"main": "./out/extension.js",
-	"icon": "images/logo.png",
-	"contributes": {
-		"commands": [
-			{
-				"command": "extension.fgen",
-				"title": "fgen: 打开表单设计器"
-			}
-		],
-		"menus": {
-			"explorer/context": [
-				{
-					"command": "extension.fgen"
-				}
-			],
-			"editor/context": [
-				{
-					"command": "extension.fgen"
-				}
-			]
-		}
-	},
-	"scripts": {
-		"vscode:prepublish": "yarn run compile",
-		"compile": "tsc -p ./",
-		"watch": "tsc -watch -p ./"
-	},
-	"dependencies": {
-		"vue-ele-form-generator": "^1.10.0"
-	},
-	"devDependencies": {
-		"@types/glob": "^7.1.1",
-		"@types/node": "^12.11.7",
-		"@types/vscode": "^1.41.0",
-		"glob": "^7.1.5",
-		"tslint": "^5.20.0",
-		"typescript": "^3.6.4"
-	}
+  "name": "fgen-for-vscode",
+  "displayName": "fgen-for-vscode",
+  "description": "vue-ele-form-generator的vscode扩展",
+  "version": "0.1.5",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.41.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "author": {
+    "name": "dream2023",
+    "email": "1098626505@qq.com",
+    "url": "https://dream2023.github.io"
+  },
+  "publisher": "dream2023",
+  "homepage": "https://github.com/dream2023/fgen-for-vscode",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dream2023/fgen-for-vscode"
+  },
+  "activationEvents": [
+    "onCommand:extension.fgen"
+  ],
+  "main": "./out/extension.js",
+  "icon": "images/logo.png",
+  "contributes": {
+    "commands": [
+      {
+        "command": "extension.fgen",
+        "title": "fgen: 打开表单设计器"
+      }
+    ],
+    "menus": {
+      "explorer/context": [
+        {
+          "command": "extension.fgen"
+        }
+      ],
+      "editor/context": [
+        {
+          "command": "extension.fgen"
+        }
+      ]
+    }
+  },
+  "scripts": {
+    "vscode:prepublish": "yarn run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./"
+  },
+  "dependencies": {
+    "vue-ele-form-generator": "^2.0.1"
+  },
+  "devDependencies": {
+    "@types/glob": "^7.1.1",
+    "@types/node": "^12.11.7",
+    "@types/vscode": "^1.41.0",
+    "glob": "^7.1.5",
+    "tslint": "^5.20.0",
+    "typescript": "^3.6.4"
+  }
 }
